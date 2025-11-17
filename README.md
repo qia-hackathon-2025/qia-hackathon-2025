@@ -9,23 +9,23 @@ If you don't have SquidASM installed yet (it's not a trivial process...) check t
 
 ## SquidASM
 
-First of all, you will need to install the SquidASM simulator. There is a proper [installation guide](https://squidasm.readthedocs.io/en/latest/installation.html), but we include here the essential points.
+First of all, you will need to install the SquidASM simulator. There is a detailed [installation guide](https://squidasm.readthedocs.io/en/latest/installation.html), but we include here the essential points.
 
-If you haven't yet, start by making an account in the SquidASM [forum](https://forum.netsquid.org/ucp.php?mode=register).
+If you haven't yet, start by making an account in the NetSquid [forum](https://forum.netsquid.org/ucp.php?mode=register).
 
-If you are using Windows you will need a [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install), to get it running:
+If you are using Linux or MacOS, you can proceed to the next step. If you are using Windows you will need a [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install), to get it running:
 1. Open PowerShell in administrator mode by right-clicking and selecting "Run as administrator".
 2. Type `wsl --install` in the PowerShell and hit enter, then restart your computer. 
 3. Open Ubuntu (you now have access to it from Windows' search bar) and set up a User Name and Password (note that whilst entering the Password nothing will appear on screen, this is normal).
 
 We recommend you install SquidASM in a [Python virtual environment](https://docs.python.org/3/library/venv.html), step by step:
-1. Go to the directory where you want to work (if you are using Windows make sure you are in the WSL terminal!) and type `python3 venv-name .venv`. 
-2. To activate an existing virtual environment, type `source venv-name/bin/activate`. You can deactivate a virtual environment where you are working just by typing `deactivate`, but we will be installing SquidASM on venv-name, so it will need it to be active every time you are working on SquidASM! 
+1. Go to the directory where you want to work on your hackathon project (if you are using Windows make sure you are in the WSL terminal!) and type `python3 -m venv .venv`, this will create a a folder named ".venv" containing a virtual environment.
+2. To activate an existing virtual environment, say the one in .venv, type `source .venv/bin/activate`. You can deactivate a virtual environment where you are working just by typing `deactivate`, but we will be installing SquidASM on .venv, so it will need it to be active every time you are working on SquidASM! 
 3. If you don't have git installed, check [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) how to do so. In short, if you are in MacOS typing `git --version` in the terminal should be enough, if you are in WSL type instead `sudo apt install git-all`.
-4. To install SquidASM in an active virtual environment, just clone the git repository `git clone https://github.com/QuTech-Delft/squidasm.git`. This will create a new folder with the name squidasm and download the squidasm package to that folder. SquidASM needs you to identify yourself before installation, for this type first `export NETSQUIDPYPI_USER=user1234` and then `export NETSQUIDPYPI_PWD_FILEPATH=password.txt` (with your own user name and password).
+4. To install SquidASM in an active virtual environment, just clone the git repository `git clone https://github.com/QuTech-Delft/squidasm.git` somewhere outside of your own project directory so that you don't accidentally submit squidasm with your hackathon contribution. This will create a new folder with the name squidasm and download the squidasm package to that folder. NetSquid needs you to identify yourself before installation, for this type first `export NETSQUIDPYPI_USER=user1234` and then `export NETSQUIDPYPI_PWD=password1234` (with your own user name and password).
 5. Finally, you can install SquidASM by typing `make install`, you can verify the installation with `make verify`.
 
-You are now ready to **go to your working directory** and start programming your application! Don't forget to check the [templates section](#templates) for some extra help :)
+You are now ready to **go to your project working directory** and start programming your application! Don't forget to check the [templates section](#templates) for some extra help :)
 
 
 PS: if you don't have a favorite code editor yet, you can use [Visual Studio Code (VS Code)](https://code.visualstudio.com/download). For Windows users, you can further [integrate it with WSL](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-vscode).
