@@ -1,4 +1,4 @@
-# 3 node network with Alice and Bob nodes
+# 2 node network with Alice and Bob nodes
 
 ############### Component settings ###############
 quantum_device_settings: &qdevice_cfg
