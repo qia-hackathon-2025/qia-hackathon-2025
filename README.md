@@ -41,16 +41,17 @@ Recall from the [SquidASM tutorial](https://squidasm.readthedocs.io/en/latest/) 
 
 ## Challenges
 
-This year we have **six different challenges** you can choose to work on during the hackathon! We have included all levels of difficulties, so that regardless of your background you can both grow your knowledge about quantum networking, and actually program applications.
+This year we have **seven different challenges** you can choose to work on during the hackathon! We have included all levels of difficulties, so that regardless of your background you can both grow your knowledge about quantum networking, and actually program applications.
 
 All the challenges can be found in the [challenges folder](challenges/), but we include here a short categorization and description to help you make a choice.
 
 ### Beginner
 
-- [CHSH](challenges/chsh_challenge.pdf) (2 nodes): the CHSH game is a two-player cooperative game where players have a quantum advantage when using entanglement as a resource. In this challenge we invite you to compare the classical and quantum strategies for the CHSH game.
+- [BBM92](challenges/bbm92_challenge.pdf) (2 nodes): BBM92 is an entanglement-based key-exchange protocol (QKD). This challenge is meant to introduce programing in SquidASM for people not necessarily familiar with quantum physics.
 
 ### Intermediate
 
+- [CHSH](challenges/chsh_challenge.pdf) (2 nodes): the CHSH game is a two-player cooperative game where players have a quantum advantage when using entanglement as a resource. In this challenge we invite you to compare the classical and quantum strategies for the CHSH game.
 - [Coordination](challenges/coordination_challenge.pdf) (2 nodes): in distributed systems parties often need to coordinate their actions based on local observations, a task that can have better performance if the parties pre-share entanglement. In this challenge we invite you to compare real use-case coordination tasks with classical and quantum strategies.
 - [Digital payments](challenges/secure_quantum_digital_payments.pdf) (3 nodes): contrary to transactions with physical money, digital payments need to be verified by a central bank to ensure there is not counterfeiting. In this challenge we invite you to implement a quantum digital payment protocol.
 
