@@ -41,7 +41,7 @@ Recall from the [SquidASM tutorial](https://squidasm.readthedocs.io/en/latest/) 
 
 ## Challenges
 
-This year we have **six different challenges** you can choose to work on during the hackathon! We have included all levels of difficulties, so that regardless of your background you can both grow your knowledge about quantum networking, and actually program applications.
+This year we have **seven different challenges** you can choose to work on during the hackathon! We have included all levels of difficulties, so that regardless of your background you can both grow your knowledge about quantum networking, and actually program applications.
 
 All the challenges can be found in the [challenges folder](challenges/), but we include here a short categorization and description to help you make a choice.
 
