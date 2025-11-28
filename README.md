@@ -47,7 +47,8 @@ All the challenges can be found in the [challenges folder](challenges/), but we 
 
 ### Beginner
 
-- [BBM92](challenges/bbm92_challenge.pdf) (2 nodes): BBM92 is an entanglement-based key-exchange protocol (QKD). This challenge is meant to introduce programing in SquidASM for people not necessarily familiar with quantum physics.
+- [BBM92 v1](challenges/bbm92_challenge.pdf) (2 nodes): BBM92 is an entanglement-based key-exchange protocol (QKD). This challenge is meant to introduce programing in SquidASM for people not necessarily familiar with quantum physics.
+- [BBM92 v2](challenges/bbm92_b_challenge.pdf) (3 nodes): second version of the BBM92 written for general simulation platforms (not necessarily directly compatible with squidASM, you'll practice how to adapt it!)
 
 ### Intermediate
 
